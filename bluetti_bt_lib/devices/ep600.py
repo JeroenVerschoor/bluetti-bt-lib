@@ -52,7 +52,6 @@ class EP600(BaseDeviceV2):
                 UIntField(FieldName.AC_P3_POWER, 1524),
                 DecimalField(FieldName.AC_P3_VOLTAGE, 1525, 1),
                 DecimalField(FieldName.AC_P3_CURRENT, 1526, 1),
-                SelectField(FieldName.CTRL_WORKING_MODE, 2005, WorkingModeV2),
                 UIntField(FieldName.WORKING_MODE_RAW, 2005),
                 SwitchField(FieldName.CTRL_AC, 2011),
                 UIntField(FieldName.BATTERY_SOC_RANGE_START, 2022),
