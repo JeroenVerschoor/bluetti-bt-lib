@@ -49,6 +49,7 @@ class FieldName(Enum):
     WORKING_MODE_RAW = "working_mode_raw"
     TOU_ENABLED_RAW = "tou_enabled_raw"
     CTRL_TIME_OF_USE = "ctrl_time_of_use"
+    CTRL_CHARGE_FROM_GRID = "ctrl_charge_from_grid"
     GRID_CHARGE_RAW = "grid_charge_raw"
     DC_INPUT_CURRENT = "dc_input_current"
     DC_INPUT_POWER = "dc_input_power"
