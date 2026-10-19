@@ -53,7 +53,7 @@ class EP600(BaseDeviceV2):
                 DecimalField(FieldName.AC_P3_VOLTAGE, 1525, 1),
                 DecimalField(FieldName.AC_P3_CURRENT, 1526, 1),
                 SwitchField(FieldName.CTRL_TIME_OF_USE, 2029),
-                UIntField(FieldName.GRID_CHARGE_RAW, 2207),
+                SwitchField(FieldName.CTRL_CHARGE_FROM_GRID, 2207),
                 SwitchField(FieldName.CTRL_AC, 2011),
                 UIntField(FieldName.BATTERY_SOC_RANGE_START, 2022),
                 UIntField(FieldName.BATTERY_SOC_RANGE_END, 2023),
